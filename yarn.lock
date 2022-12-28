@@ -151,19 +151,19 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@candypay/checkout-sdk@0.1.36":
-  version "0.1.36"
-  resolved "https://registry.yarnpkg.com/@candypay/checkout-sdk/-/checkout-sdk-0.1.36.tgz#b9da9d04f0c750b69657ce0628093d7a92b87ad2"
-  integrity sha512-2VYdmxTXjkVB+UYsTCXmqnKoS/rMlIW1g0fZ7cOVI1C32Cjys4GhP+2fMAcHu9SBGSpm8BjmMG5HjDL07nqF6g==
+"@candypay/checkout-sdk@0.1.37":
+  version "0.1.37"
+  resolved "https://registry.yarnpkg.com/@candypay/checkout-sdk/-/checkout-sdk-0.1.37.tgz#f6cb428d5ec648e2967e40ee3f557da77cffddca"
+  integrity sha512-GxitOs5b2fvdZGFlVrsd2OmUk8ynvXuX7PblracVIw3nkZldeY++ZG1lYSYdkGXFVMu7cwAjiDd7AIARoKYtqA==
   dependencies:
     "@types/node" "18.7.18"
     axios "^0.27.2"
     svix "^0.70.0"
 
-"@candypay/react-checkout-pos@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@candypay/react-checkout-pos/-/react-checkout-pos-0.0.1.tgz#bc7e11309dfa5da65aa564f63086d191086ece66"
-  integrity sha512-pQk4yAmKhOso6DivffF29dTlSUgDuk3GDc70I5BMN6/HDA021r7us3awM8ExCsV6zEBYGQRxsKzJq1gDj2ik+A==
+"@candypay/react-checkout-pos@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@candypay/react-checkout-pos/-/react-checkout-pos-0.0.4.tgz#3219d6c1b5b0e3b44ddeb3ca732afeffa61c643d"
+  integrity sha512-IePkMExDdPZn9h3SfI4EGV5XJMMijH1xsQZOK/9ZHSb/yjrCp51teJsFN5jrmBq2zRZ4wrnKhWFm25sPErUSng==
   dependencies:
     "@chakra-ui/react" "^2.3.4"
     "@emotion/react" "^11.10.4"
