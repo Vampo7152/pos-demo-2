@@ -10,8 +10,15 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       const response = await candypay.session.create({
         success_url: "https://posolpayments.vercel.app/success",
         cancel_url: "https://posolpayments.vercel.app/",
-        tokens: [ "dust", "shdw"],
+        tokens: [ "shdw", "bonk"],
         items: items,
+        discounts: {
+          verified_creator_address:
+            "4ZCiGakZJy5aJsLpMBNBNwyrmNCCSCzukzhaPzzd4d7v",
+          discount: 0.2,
+          name: "Spaces NFT List",
+          image: "https://i.ibb.co/qMr52vL/Screenshot-2022-12-27-040620.png",
+        },
       });
 
       return res.status(200).json(response);
