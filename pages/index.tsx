@@ -6,35 +6,34 @@ const Home: NextPage = () => {
   const products = [
     {
       id: 1,
-      name: "FWD Tee",
+      name: "Hot Coffee",
       href: "#",
       price: 0.02,
-      color: "Eagle Black",
+      color: "roasted",
       imageSrc:
-        "https://res.cloudinary.com/dtzqgftjk/image/upload/v1668956691/Screenshot_2022-11-20_203304_mibz2y.png",
+      "https://post.healthline.com/wp-content/uploads/2020/08/AN275-cup-of-coffee-732x549-Thumb_0.jpg",
       imageAlt:
         "Front of tote bag with washed black canvas body, black straps, and tan leather handles and accents.",
     },
     {
       id: 2,
-      name: "FWD Hoodie",
+      name: "Gradient Shiny Pullover",
       href: "#",
       price: 0.03,
-      color: "Washed Black",
+      color: "black",
       imageSrc:
-        "https://res.cloudinary.com/dtzqgftjk/image/upload/v1668956686/Screenshot_2022-11-20_203344_m9kb6e.png",
+      "https://store.solana.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0560%2F2017%2F2968%2Fproducts%2FFrame11663.png%3Fv%3D1658765433&w=750&q=100",
       imageAlt:
         "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
     },
     {
       id: 3,
-      name: "Throwback Hip Bag",
+      name: "Solana Neck Gaiter",
       href: "#",
-      color: "Salmon",
+      color: "pattern green",
       price: 0.04,
-      quantity: 1,
       imageSrc:
-        "https://tailwindui.com/img/ecommerce-images/shopping-cart-page-04-product-01.jpg",
+      "https://store.solana.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0560%2F2017%2F2968%2Fproducts%2FFrame11668.png%3Fv%3D1658765330&w=750&q=100",
       imageAlt:
         "Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.",
     },
