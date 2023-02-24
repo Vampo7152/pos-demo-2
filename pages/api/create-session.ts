@@ -12,6 +12,14 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         cancel_url: "https://posolpayments.vercel.app/",
         tokens: [ "samo", "bonk"],
         items: items,
+        discounts:{
+          collection_id:
+            "a474abba0c075a2437f5af9b1b770546", 
+          discount: 0.3,
+          name: "Samoyedcoin NFT",
+          image:
+            "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreifaph56hyconj2ps3zsmsamnxg7b66bzpwlcqmxfj3uttcevwsw6a.ipfs.nftstorage.link/",
+        }
       });
 
       return res.status(200).json(response);
