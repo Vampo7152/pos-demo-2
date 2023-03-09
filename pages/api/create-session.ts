@@ -10,11 +10,11 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       const response = await candypay.session.create({
         success_url: "https://posolpayments.vercel.app/",
         cancel_url: "https://posolpayments.vercel.app/",
-        tokens: [ "samo", "bonk"],
+        tokens: [ "samo"],
         items: items,
         discounts:{
           collection_id:
-            "a474abba0c075a2437f5af9b1b770546", 
+            "6VsH4ijXWNNTNxWwVkpVcVLrFaH6M86Rd8qYhnJrMtkm", 
           discount: 0.3,
           name: "Samoyedcoin NFT",
           image:
