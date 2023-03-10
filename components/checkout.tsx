@@ -142,7 +142,7 @@ export const Checkout = ({ open, setOpen, products }: Props) => {
                         <Button
                           isLoading={isLoading}
                           onClick={createSessionOnDevnet}
-                          colorScheme='messenger'
+                          colorScheme="brand"
                           w="full"
                         >
                           Checkout
