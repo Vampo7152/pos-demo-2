@@ -14,11 +14,11 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         items: items,
         discounts:{
           collection_id:
-            "6VsH4ijXWNNTNxWwVkpVcVLrFaH6M86Rd8qYhnJrMtkm", 
-          discount: 0.3,
-          name: "Samoyedcoin NFT",
+            "2w2nViZM4dGngugHJxAvtbz5X91YCRJVY6ChrZ15Zwpv", 
+          discount: 1,
+          name: "Vietnam HH Merch Token",
           image:
-            "https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreifaph56hyconj2ps3zsmsamnxg7b66bzpwlcqmxfj3uttcevwsw6a.ipfs.nftstorage.link/",
+            "https://res.cloudinary.com/dtzqgftjk/image/upload/v1671540678/Vector_1_zxj0wf.png",
         }
       });
 
