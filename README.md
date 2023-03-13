@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Solana HH Vietnam POS activation
 
-## Getting Started
+This is a POS store for the Solana HackerHouse - Vietnam edition, where attendees can buy amazing merch and refreshments paying in SOL and SPL tokens! Getting $SMAO cashback on each successful order and also enjoying discounts for holding a SAMO NFT or the Attendance NFT (available to mint at the IRL site)
 
-First, run the development server:
+## Specifications
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The IRL payment experinces for this site is powered by [CandyPay](https://candypay.fun) and this store follows these particular specifications- 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Product details available: [Landing Page](https://github.com/Vampo7152/hh-vietnam-special/blob/main/pages/index.tsx) & [Details Page](https://github.com/Vampo7152/hh-vietnam-special/blob/main/pages/items/%5Bid%5D.tsx)
+- `100%` Discount available for the holders of `Attendance NFT`(available to mint IRL at event gates), details available [here](https://github.com/Vampo7152/hh-vietnam-special/blob/db8d0099a4ed75753b8fe89d14702648fb87dfa9/pages/api/create-session.ts#L10-L23)
+- Merchant account uses webhook service for airdropping 5 $SAMO cashback for each dollar spent on the store, directly to the user wallet address. Source code for webhook service available [here](https://github.com/Vampo7152/hh-vietnam-webhook)
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy this store is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Make sure to provide the merchant's API Key in the following key values: 
+```bash
+NEXT_PUBLIC_CANDYPAY_PUBLIC_API_KEY
+
+CANDYPAY_PRIVATE_API_KEY
+```
