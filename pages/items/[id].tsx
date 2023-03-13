@@ -20,16 +20,19 @@ const products = [
     name: "Hot Coffee",
     price: 0.02,
     images: "https://post.healthline.com/wp-content/uploads/2020/08/AN275-cup-of-coffee-732x549-Thumb_0.jpg",
+    description: ""
   },
   {
     name: "Gradient Shiny Pullover",
     price: 0.03,
     images: "https://store.solana.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0560%2F2017%2F2968%2Fproducts%2FFrame11663.png%3Fv%3D1658765433&w=750&q=100",
+    description: ""
   },
   {
-    name: "Solana Neck Gaiter",
-    price: 0.04,
-    images: "https://store.solana.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0560%2F2017%2F2968%2Fproducts%2FFrame11668.png%3Fv%3D1658765330&w=750&q=100",
+    name: "SamoIsComing T (Free with Attendance token)",
+    price: 20,
+    images: "https://res.cloudinary.com/dtzqgftjk/image/upload/v1678714674/photo_6087002594955342483_x_nvpjvm.jpg",
+    description: "DO NOT SELL FOR USDC, available for $0 only via Attendance Token"
   },
 ];
 function classNames(...classes: any[]) {
@@ -62,7 +65,7 @@ const Item = () => {
         <div className="bg-white">
           <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8">
-            <Tab.Group as="div" className="flex flex-col-reverse">
+              <Tab.Group as="div" className="flex flex-col-reverse">
                 <Tab.Panels className="aspect-w-1 aspect-h-1 w-full">
                   <Tab.Panel>
                     <img
@@ -84,10 +87,16 @@ const Item = () => {
 
                 <div className="mt-3">
                   <h2 className="sr-only">Product information</h2>
-                  <p className="text-3xl tracking-tight text-gray-900">
+                  <p className="text-3xl tracking-tight pb-5 text-gray-900">
                     $ {product?.price}
                   </p>
                 </div>
+                <div
+                  className="space-y-6 text-base text-gray-700"
+                >
+                  {product?.description}
+                </div>
+
                 <div className="flex text-base font-medium text-gray-900">
                   <div className="pr-10">
                     <h1 className="mb-3 mt-10">Quantity</h1>

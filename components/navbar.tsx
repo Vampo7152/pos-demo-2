@@ -35,31 +35,38 @@ export default function Navbar() {
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
                     <img
-                      className="block h-8 w-auto rounded-full lg:hidden"
-                      src="https://static8.depositphotos.com/1472772/963/i/950/depositphotos_9632509-stock-photo-red-candy.jpg"
+                      className="block h-8 w-auto  lg:hidden"
+                      src="https://cryptologos.cc/logos/solana-sol-logo.png?v=024"
                       alt="Your Company"
                     />
                     <img
-                      className="hidden h-8 w-auto rounded-full lg:block"
-                      src="https://static8.depositphotos.com/1472772/963/i/950/depositphotos_9632509-stock-photo-red-candy.jpg"
+                      className="hidden h-8 w-auto lg:block"
+                      src="https://cryptologos.cc/logos/solana-sol-logo.png?v=024"
                       alt="Your Company"
                     />
                   </div>
-                  <div className="inline-flex items-center pl-4 pt-1 text-xl font-bold text-gray-900">
-                    Candy Store
-                  </div>
+                  <button
+                    onClick={() => {
+                      router.push("/");
+                    }}
+                  >
+                    <div className="inline-flex items-center pl-4 pt-1 text-xl font-bold text-gray-900">
+                      Solana Hacker House
+                    </div>
+                  </button>
+
+                </div>
+                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                     <button
                       onClick={() => {
                         router.push("/");
                       }}
-                      className="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
+                      className="inline-flex items-center border-b-2 border-indigo-500 mr-8 px-1 pt-1 text-sm font-medium text-gray-900"
                     >
                       {!router.query.id ? "Home" : "Go Back"}
                     </button>
                   </div>
-                </div>
-                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   <button
                     onClick={() => {
                       setOpen(true);
