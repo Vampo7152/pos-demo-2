@@ -23,7 +23,7 @@ const products = [
     description: "Not available for actual sale. Only redeemable with attendance token"
   },
   {
-    name: "SamoIsComing T (Free with Attendance token)",
+    name: "SamoIsComing T Shirt",
     price: 20,
     images: "https://res.cloudinary.com/dtzqgftjk/image/upload/v1678714674/photo_6087002594955342483_x_nvpjvm.jpg",
     description: "Not available for actual sale. Only redeemable with attendance token"

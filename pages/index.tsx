@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         "Front of tote bag with washed black canvas body, black straps, and tan leather handles and accents.",
     },
     {
-      id: 3,
+      id: 2,
       name: "SamoIsComing T Shirt",
       href: "#",
       color: "Free with Attendance token",
