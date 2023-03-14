@@ -8,8 +8,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
     try {
       const response = await candypay.session.create({
-        success_url: "https://pos-demo-2.vercel.app/",
-        cancel_url: "https://pos-demo-2.vercel.app/",
+        success_url: "https://hh-vietnam-special.vercel.app/",
+        cancel_url: "https://hh-vietnam-special.vercel.app/",
         tokens: [ "samo"],
         items: items,
         discounts:{
