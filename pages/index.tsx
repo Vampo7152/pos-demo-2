@@ -6,29 +6,18 @@ const Home: NextPage = () => {
   const products = [
     {
       id: 1,
-      name: "Hot Coffee",
+      name: "Solana Partner Merch",
       href: "#",
-      price: 0.02,
-      color: "roasted",
+      price: 20,
+      color: "Free with Attendance token",
       imageSrc:
-      "https://post.healthline.com/wp-content/uploads/2020/08/AN275-cup-of-coffee-732x549-Thumb_0.jpg",
+      "https://res.cloudinary.com/dtzqgftjk/image/upload/v1678791831/SolanaPartnerMerch_1_-min_c0jtuf.png",
       imageAlt:
         "Front of tote bag with washed black canvas body, black straps, and tan leather handles and accents.",
     },
     {
-      id: 2,
-      name: "Gradient Shiny Pullover",
-      href: "#",
-      price: 0.03,
-      color: "black",
-      imageSrc:
-      "https://store.solana.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0560%2F2017%2F2968%2Fproducts%2FFrame11663.png%3Fv%3D1658765433&w=750&q=100",
-      imageAlt:
-        "Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.",
-    },
-    {
       id: 3,
-      name: "SamoIsComing Tee",
+      name: "SamoIsComing T Shirt",
       href: "#",
       color: "Free with Attendance token",
       price: 20,
