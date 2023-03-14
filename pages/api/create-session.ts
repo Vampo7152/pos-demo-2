@@ -15,7 +15,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         discounts:{
           collection_id:
             "AnJJQKgpS5BmQd5iHjjMcoDqm3AEjSv4erFLJjujLYPr", 
-          discount: 0.99,
+          discount: 1,
           name: "Vietnam HH Attendance Token",
           image:
             "https://res.cloudinary.com/dtzqgftjk/image/upload/v1671540678/Vector_1_zxj0wf.png",
